@@ -1,0 +1,23 @@
+body {
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    font-family: "Lucida Console", Courier, monospace;;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.date {
+    margin: 10px 0
+}
+
+.snippet {
+    margin-top: 60px;
+}
+
+.preview {
+    color: #464646;
+}
