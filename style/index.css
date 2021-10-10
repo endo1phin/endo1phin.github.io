@@ -2,12 +2,17 @@ body {
     max-width: 800px;
     padding: 20px;
     margin: auto;
-    font-family: "Lucida Console", Courier, monospace;;
+    font-family: "Lucida Console", Courier, monospace;
+    line-height: 1.5;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+p {
+    margin-top: 30px;
 }
 
 .date {
