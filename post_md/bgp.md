@@ -2,7 +2,7 @@
 
 *October 1, 2021* 
 
-In April 2019, Cloudflare, one of the world’s largest web infrastructure companies, saw a large portion of its traffic through Verizon routed to DQE Communications, a small ISP in Pennsylvania, and its customer Allegheny Technologies. In a scenario Cloudflare engineers described as “routing an entire freeway down a neighborhood street”, the burst of Verizon traffic overloaded Allegheny’s infrastructure, forcing it to drop traffic coming through its network and causing disruption to major online services including Google and Amazon 
+In April 2019, Cloudflare, one of the world’s largest web infrastructure companies, saw a large portion of its traffic through Verizon routed to DQE Communications, a small ISP in Pennsylvania, and its customer Allegheny Technologies. In a scenario Cloudflare engineers described as “routing an entire freeway down a neighborhood street”, the burst of Verizon traffic overloaded Allegheny’s infrastructure, forcing it to drop traffic coming through its network and causing disruption to major online services including Google and Amazon. 
 
 The incident concerns the Border Gateway Protocol (BGP), a protocol that guides traffic through the world’s massive internet infrastructures. BGP controls how a cluster of computers in the same network, known as an Autonomous System (AS), communicates with other AS to find an optimal route for traffic originated in or passing through their network. This is achieved by announcements to their peers consisting of the IP addresses that their network can reach and how long it takes to get there. Each AS then calculates the optimal route given the information provided by their neighbors. 
 
